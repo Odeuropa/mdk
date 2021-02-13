@@ -25,6 +25,6 @@ We solicit submissions of long and short papers covering a wide range of NLP and
 
 The MDK 2021 proceedings will be published with CEUR-WS.org. The submission web site is [https://www.easychair.org/conferences/?conf=mdk2021](https://www.easychair.org/conferences/?conf=mdk2021)
 
-For any questions, please feel free to contact the organisers directly, or via mdk2021@easychair.org.
+For any questions, please feel free to contact the organisers directly, or via [mdk2021@easychair.org](mailto:mdk2021@easychair.org).
 
 
