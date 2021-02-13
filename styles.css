@@ -1,0 +1,369 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:regular,bold,italic,thin,light,bolditalic,black,medium&lang=en';
+.btn {
+  position: relative;
+  display: inline-block;
+  margin: 30px auto;
+  padding: 0;
+  overflow: hidden;
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.6);
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #fff;
+  color: #333 !important;
+  transition: background-color 0.3s;
+}
+.btn > * {
+  position: relative;
+}
+.btn span {
+  display: block;
+  padding: 12px 24px;
+}
+.btn:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  width: 0;
+  padding-top: 0;
+  border-radius: 100%;
+  background-color: rgba(236,240,241,0.3);
+  transform: translate(-50%, -50%);
+}
+.btn:active:before {
+  width: 120%;
+  padding-top: 120%;
+  transition: width 0.2s ease-out, padding-top 0.2s ease-out;
+}
+.btn:hover,
+.btn:focus {
+  background-color: #f5f5f5;
+}
+#appFooter {
+  margin-top: 2em;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  box-sizing: border-box;
+  box-shadow: inset 0 9px 16px -12px #222;
+  padding: 1em 3em;
+  background: #d3d3d3;
+}
+#appFooter .descr a {
+  margin-left: 0.5em;
+}
+#appFooter .descr strong {
+  margin: 0 0.5em;
+}
+#appFooter .footerCont {
+  margin: auto;
+  max-width: pageWidthLimit;
+}
+#appFooter .footerCont .projLogoCont {
+  margin: 1em auto;
+  text-align: center;
+}
+#appFooter .footerCont .projLogoCont a {
+  opacity: 0.4;
+  margin: 0 1em;
+  display: inline-block;
+  text-decoration: none;
+  transition: opacity 0.3s;
+  vertical-align: middle;
+}
+#appFooter .footerCont .projLogoCont a img {
+  max-width: 100%;
+  max-height: 100%;
+  width: 7em;
+  filter: saturate(0%);
+  -webkit-filter: saturate(0%);
+  transition: all 0.3s;
+}
+#appFooter .footerCont .projLogoCont a:hover {
+  opacity: 1;
+  filter: none;
+}
+#appFooter .footerCont .projLogoCont a:hover img {
+  filter: saturate(100%);
+  -webkit-filter: saturate(100%);
+}
+html,
+body {
+  background-color: #fafafa;
+  margin: 0;
+}
+body {
+  font-family: 'Open Sans', 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+h1,
+h2 {
+  font-family: "Lucida Console", Monaco, monospace;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+a {
+  color: #b71c1c;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+section,
+h1 {
+  max-width: 900px;
+  margin: auto;
+}
+.cover {
+  max-width: none;
+  display: block;
+  padding: 4em 0 0;
+  background: #b71c1c url("img/banner.jpg") center center no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 -7px 16px -12px #222;
+  margin-bottom: 2em;
+}
+.cover .inside {
+  padding: 0 2em;
+  text-align: center;
+  max-width: 900px;
+  margin: auto;
+  color: #fff;
+}
+@media only screen and (max-width: 800px) {
+  .cover .inside {
+    flex-direction: column;
+  }
+}
+.cover a {
+  color: #fff;
+  display: inline-block;
+  background: rgba(183,28,28,0.8);
+  padding: 0.2em;
+  text-decoration: none;
+  transition: background 300ms ease-in-out;
+}
+.cover a:hover {
+  background: #b71c1c;
+}
+.cover nav.mainNav {
+  background: rgba(183,28,28,0.6);
+}
+.cover nav.mainNav ul {
+  max-width: 900px;
+  margin: auto;
+  padding: 0.5em 1em;
+  text-align: center;
+}
+.cover nav.mainNav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 1em;
+}
+.cover nav.mainNav ul li a {
+  text-transform: uppercase;
+  padding: 0.4em;
+  background: none;
+}
+.cover nav.mainNav ul li a.active {
+  background: rgba(12,98,145,0.8);
+}
+.cover nav.mainNav ul li a:hover {
+  border-color: #0c6291;
+}
+.cover h1 {
+  font-size: 2em;
+  line-height: 1.1;
+  font-weight: 500;
+  color: #fff;
+  display: inline;
+}
+.cover h1 small {
+  margin-top: 0.3em;
+  display: inline-block;
+  background: rgba(12,98,145,0.8);
+  font-size: 1em;
+}
+@media only screen and (min-width: 500px) {
+  .cover h1 small {
+    font-size: 1.3em;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .cover h1 small {
+    font-size: 2em;
+  }
+}
+.cover h2 {
+  font-weight: 300;
+  color: #fff;
+  opacity: 0.9;
+}
+@media only screen and (max-width: 800px) {
+  .cover {
+    text-align: center;
+  }
+}
+.cover .logo {
+  width: 25em;
+  padding-left: 2em;
+}
+@media only screen and (max-width: 800px) {
+  .cover .logo {
+    max-width: 8em;
+    max-height: 8em;
+    width: 70vw;
+    height: 70vw;
+    margin-top: 2em;
+  }
+}
+.cover .logo img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.card {
+  background: #fff;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  margin-bottom: 4em;
+}
+.card ul.list {
+  padding: 1em 0;
+}
+.card ul.list > li {
+  margin: 1em 2em;
+  padding: 1em;
+  border-bottom: 1px solid #999;
+}
+.card ul.list > li:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+.card ul.list > li:first-child {
+  margin-top: 0;
+}
+.card ul.list > li .label {
+  display: inline-block;
+  width: 8em;
+  padding: 0 1em 0 2em;
+}
+.card ul.list > li .content {
+  display: inline-block;
+  width: calc(100% - 11em);
+}
+.card ul.list > li .description {
+  font-style: italic;
+  font-size: 1.1em;
+  margin-bottom: 0.4em;
+}
+.card h2 {
+  text-transform: uppercase;
+  font-size: 1.1em;
+  margin: 0;
+  margin-bottom: 0.4em;
+}
+.card h2 a {
+  text-decoration: none;
+  color: inherit;
+}
+.card h2 span {
+  font-variant: small-caps;
+}
+.card h2 small {
+  display: block;
+  font-size: 0.5em;
+  opacity: 0.6;
+  font-family: "Lucida Console", Monaco, monospace;
+}
+.card ul.features {
+  display: table;
+}
+.card ul.features li {
+  display: table-row;
+  margin: 0.5em;
+  font-size: 0.9em;
+}
+.card ul.features li div {
+  display: table-cell;
+  padding: 0.5em;
+  vertical-align: text-top;
+}
+.card ul.features li .prop {
+  font-variant: small-caps;
+  opacity: 0.8;
+}
+.card ul.features li small {
+  opacity: 0.5;
+  font-size: 0.8em;
+}
+.profile-pic {
+  float: left;
+  margin: 0 1em 1em 0;
+  border-radius: 50%;
+  border: 1px solid #a7a7a7;
+  width: 80px;
+}
+@media only screen and (min-width: 600px) {
+  .textblock {
+    margin-left: 99px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .textblock {
+    clear: both;
+  }
+}
+.mainContent {
+  max-width: 900px;
+  padding: 1em;
+  margin: auto;
+  min-height: 200px;
+}
+.mainContent section {
+  margin: 4em 0;
+}
+.mainContent ul {
+  list-style: disc;
+  padding-left: 1.4em;
+}
+.mainContent p + ul {
+  margin-top: -0.7em;
+}
+.mainContent h1 {
+  display: inline-block;
+  background: #0c6291;
+  font-size: 1.8em;
+  padding: 0.3em;
+  color: #fff;
+  margin-top: 1em;
+}
+h3 + h4 {
+  margin-top: -1em;
+  font-weight: 100;
+  margin-bottom: 0;
+}
+h3 + h4 + p {
+  margin: 0;
+}
+table {
+  margin: 1em 0;
+}
+table td {
+  padding: 0.3em 0.5em;
+}
+table tr:nth-child(even) {
+  background-color: #ececec;
+}
+table em {
+  color: #b71c1c;
+}
+.credit {
+  margin-top: 4em;
+  font-size: 0.8em;
+  opacity: 0.9;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,260 @@
+// out: ../styles.css, sourcemap: true, compress: false, libs: nib rupture
+
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:regular,bold,italic,thin,light,bolditalic,black,medium&lang=en'
+@import "button"
+@import "footer"
+
+defaultFont = 'Open Sans','Roboto','Helvetica','Arial',sans-serif
+monospaceFont = "Lucida Console", Monaco, monospace
+
+pageWidthLimit = 900px
+
+// COLORS
+materialLink = #b71c1c
+link = #b71c1c
+altColor = #b71c1c
+mainColor = #0C6291
+
+html, body
+  background-color: #FAFAFA;
+  margin 0
+
+body
+  font-family defaultFont
+
+h1,h2
+  font-family monospaceFont
+
+ul
+  list-style none
+  padding 0
+
+a
+  color link
+  text-decoration none
+  &:hover
+    text-decoration underline
+
+section
+h1
+  max-width pageWidthLimit
+  margin auto
+
+.cover
+  max-width none
+
+  display block
+  padding 4em 0 0
+
+  background  altColor url('img/fake-news.jpg') center center no-repeat
+  background-size cover
+
+  box-shadow inset 0 -7px 16px -12px grayDark
+  margin-bottom 2em
+
+  .inside
+    padding 0 2em
+    text-align center
+
+    max-width pageWidthLimit
+    margin auto
+    color #fff
+
+
+    +below('m')
+      flex-direction column
+  a
+    color #fff
+    display inline-block
+    background alpha(materialLink, .8)
+    padding .2em
+    text-decoration none
+    transition background 300ms ease-in-out
+    &:hover
+      background materialLink
+
+  nav.mainNav
+    background alpha(altColor, .6)
+    ul
+      max-width 900px
+      margin auto
+      padding .5em 1em
+      text-align center
+      li
+        list-style none
+        display inline-block
+        margin 0 1em
+        a
+          text-transform uppercase
+          padding .4em
+          background none
+          &.active
+            background alpha(mainColor, .8)
+          &:hover
+            border-color mainColor
+
+
+
+  h1
+    font-size 2em
+    line-height 1.1
+    font-weight 500
+    color #fff
+    display inline
+
+    small
+      margin-top .3em
+
+      display inline-block
+      background alpha(mainColor, .8)
+      font-size 1em
+      
+      +above(500px)
+        font-size 1.3em
+
+      +above(900px)
+        font-size 2em
+
+
+  h2
+    font-weight 300
+    color #fff
+    opacity .9
+
+
+  +below('m')
+    text-align center
+
+  .logo
+    width 25em
+    padding-left 2em
+    +below('m')
+      max-width 8em
+      max-height 8em
+      width 70vw
+      height 70vw
+      margin-top 2em
+    img
+      max-width: 100%
+      max-height: 100%
+
+
+.card
+  background #fff
+  box-shadow 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+  margin-bottom 4em
+
+  ul.list
+    padding 1em 0
+    > li
+      margin 1em 2em
+      padding 1em
+      border-bottom 1px solid #999
+      &:last-child
+        border-bottom none
+        margin-bottom 0
+      &:first-child
+        margin-top 0
+
+      .label
+        display inline-block
+        width 8em
+        padding 0 1em 0 2em
+      .content
+        display inline-block
+        width calc(100% - 11em)
+
+      .description
+        font-style italic
+        font-size 1.1em
+        margin-bottom .4em
+
+  h2
+    text-transform: uppercase
+    font-size 1.1em
+    margin 0
+    margin-bottom .4em
+
+    a
+      text-decoration none
+      color inherit;
+    span
+      font-variant: small-caps
+    small
+      display block
+      font-size: .5em
+      opacity: .6
+      font-family monospaceFont
+
+  ul.features
+    display table
+    li
+      display table-row
+      margin .5em
+      font-size .9em
+      div
+        display table-cell
+        padding .5em
+        vertical-align: text-top;
+      .prop
+        font-variant: small-caps
+        opacity .8
+
+      small
+        opacity .5
+        font-size .8em
+
+.profile-pic
+  float left
+  margin 0 1em 1em 0
+  border-radius 50%
+  border 1px solid #a7a7a7
+  width 80px
+
+.textblock
+  +above('m')
+    margin-left 99px
+  +below('s')
+    clear both
+
+.mainContent
+  max-width 900px
+  padding 1em
+  margin auto
+  min-height 200px
+  section
+    margin 4em 0
+  ul
+    list-style disc
+    padding-left 1.4em
+  p + ul
+    margin-top - 0.7em
+  h1
+    display inline-block
+    background mainColor
+    font-size 1.8em
+    padding .3em
+    color #fff
+    margin-top 1em
+
+
+h3 + h4
+  margin-top -1em
+  font-weight 100
+  margin-bottom 0
+  + p
+    margin 0
+
+table
+  margin 1em 0
+  td
+    padding .3em .5em
+  tr:nth-child(even)
+    background-color #ececec
+  em
+    color materialLink
+
+.credit
+  margin-top 4em
+  font-size 0.8em
+  opacity 0.9
