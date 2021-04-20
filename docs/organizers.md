@@ -104,7 +104,7 @@ Language Technology and Semantic Web expert with a penchant for interdisciplinar
 
 # Program Committee
 
-- Elena Cabrio, INRIA, France
+- Elena Cabrio, Université Côte d’Azur, Inria, CNRS, I3S, France
 - Ilja Croijmans, Utrecht University, The Netherlands
 - Marilena Daquino, University of Bologna, Italy
 - Tommaso Di Noia, Politecnico di Bari, Italy
