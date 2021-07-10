@@ -21,3 +21,7 @@ navigation_weight: 4
 Wednesday 1 September 9:00 – 13:00 (Hybrid/online event)
 
 Details to be announced. 
+
+# Registration
+
+Attendance to MDK and its parent conference [LDK](https://2021.ldk-conf.org) is free of charge, please do register by 22 July via http://2021.ldk-conf.org/registration/
