@@ -17,9 +17,9 @@ navigation_weight: 4
 | 10:10 - 10:30 | [From meaning to perception - exploring the space between word and odor perception embeddings](https://github.com/Odeuropa/mdk21/raw/afd407ad2afa560cd9ccaba0620f23678b5e52e2/preprints/MDK_paper_1.pdf) - Janek Amann and Manex Agirrezabal | 
 | 10:30 - 11:00 | Tea Break | | 
 | | Second paper session | Chair: Enrico Daga | 
-| 11:00 - 11:20 |  [Nose First. Towards an Olfactory Gaze for Digital Art History](https://github.com/Odeuropa/mdk21/raw/afd407ad2afa560cd9ccaba0620f23678b5e52e2/preprints/MDK_paper_6.pdf)) - Sofia Collette Ehrich, Caro Verbeek, Mathias Zinnen, Lizzie Marx, Cecilia Bembibre and Inger Leemans | |
-| 11:20 - 11:40 | [Exploring the Sensory Spaces of English Perceptual Verbs in Natural Language Data](https://github.com/Odeuropa/mdk21/raw/afd407ad2afa560cd9ccaba0620f23678b5e52e2/preprints/MDK_paper_4.pdf)) - Roxana Girju and David Peng | 
-| 11:40 - 12:00 | [Inter-Sense: An Investigation of Sensory Blending in Fiction](https://github.com/Odeuropa/mdk21/raw/afd407ad2afa560cd9ccaba0620f23678b5e52e2/preprints/MDK_paper_2.pdf)) - Roxana Girju and Charlotte Lambert | 
+| 11:00 - 11:20 |  [Nose First. Towards an Olfactory Gaze for Digital Art History](https://github.com/Odeuropa/mdk21/raw/afd407ad2afa560cd9ccaba0620f23678b5e52e2/preprints/MDK_paper_6.pdf) - Sofia Collette Ehrich, Caro Verbeek, Mathias Zinnen, Lizzie Marx, Cecilia Bembibre and Inger Leemans | |
+| 11:20 - 11:40 | [Exploring the Sensory Spaces of English Perceptual Verbs in Natural Language Data](https://github.com/Odeuropa/mdk21/raw/afd407ad2afa560cd9ccaba0620f23678b5e52e2/preprints/MDK_paper_4.pdf) - Roxana Girju and David Peng | 
+| 11:40 - 12:00 | [Inter-Sense: An Investigation of Sensory Blending in Fiction](https://github.com/Odeuropa/mdk21/raw/afd407ad2afa560cd9ccaba0620f23678b5e52e2/preprints/MDK_paper_2.pdf) - Roxana Girju and Charlotte Lambert | 
 | 12:00 - 12:45 | Discussion | Chair: Marieke van Erp and Albert Meroño-Peñuela | 
 | 12:45 - 13:00 | Wrap up | Chair: Albert Meroño-Peñuela | 
 
