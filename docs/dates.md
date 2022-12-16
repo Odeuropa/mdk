@@ -8,10 +8,12 @@ navigation_weight: 3
 
 # Dates
 
-Workshop papers submissions - April 30, 2021 - 23:59 AOE
+Workshop papers submissions - 6 February, 2023 - 23:59 AOE
 
-Notification                - May 21, 2021
+Notification                - 6 March, 2023
 
-Camera Ready Submission     - June 14, 2021
+Camera Ready Submission     - 20 March, 2023
 
-Workshop Day                - September 1, 2021
+Final program published     - 31 March, 2023
+
+Workshop Day                - 1 or 2 May, 2023

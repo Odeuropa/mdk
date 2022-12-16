@@ -10,7 +10,7 @@ navigation_weight: 5
 
 <section markdown="1">
 
-![Enrico Daga](https://pbs.twimg.com/profile_images/1283682002206633985/eaAVlPyl_400x400.jpg){: .profile-pic}
+![Enrico Daga](https://kmi.open.ac.uk/images/people/medium/enrico-daga.png){: .profile-pic}
 ### Enrico Daga
 #### The Open University – UK
 [mail](mailto:enrico.daga@open.ac.uk) - [website](http://www.enridaga.net/)
@@ -25,7 +25,7 @@ Research Fellow at the Knowledge Media Institute of The Open University in the U
 
 <section markdown="1">
 
-![Albert Meroño-Peñuela](https://pbs.twimg.com/profile_images/1351220228869517321/DyabMZUH_400x400.jpg){: .profile-pic}
+![Albert Meroño-Peñuela](https://www.kcl.ac.uk/importedimages/schools/nms/informatics/albertmeronopenuela.x616ffc6f.jpg?w=160&h=172&crop=160,160,0,0&f=webp){: .profile-pic}
 ### Albert Meroño-Peñuela
 #### King’s College London – UK
 [mail](mailto:albert.merono@kcl.ac.uk) - [website](https://www.albertmeronyo.org/)
