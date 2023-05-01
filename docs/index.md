@@ -11,5 +11,5 @@ Our senses are the gateways to our memories and emotions. However, they are unde
 
 # Workshop proceedings
 
- * The proceedings of MDK 2021 is available as open access at the LDK'21 Companion Proceedings at https://ceur-ws.org/Vol-3064/ 
- * The proceedings of MDK 2023 is available as open access in the WWW'23 Companion Proceedings of the ACM Web Conference at https://dl.acm.org/doi/proceedings/10.1145/3543873#heading10
+ * The proceedings of MDK 2021 is available as open access at the LDK'21 Companion Proceedings at [https://ceur-ws.org/Vol-3064/](https://ceur-ws.org/Vol-3064/) 
+ * The proceedings of MDK 2023 is available as open access in the WWW'23 Companion Proceedings of the ACM Web Conference at [https://dl.acm.org/doi/proceedings/10.1145/3543873#heading10](https://dl.acm.org/doi/proceedings/10.1145/3543873#heading10)
