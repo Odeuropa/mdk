@@ -118,6 +118,7 @@ Language Technology and Semantic Web expert with a penchant for interdisciplinar
 - Serra Sinem Tekiroğlu, Fondazione Bruno Kessler, Italy
 - Rachele Sprugnoli, Università Cattolica del Sacro Cuore, Italy
 - Chiara Veninata, The Italian Ministry of Cultural Heritage and Activities, Italy
+- David M. Weigl, University of Music and Performing Arts Vienna, Austria
 - Valeria Zotti, University of Bologna, Italy
 
 </section>
